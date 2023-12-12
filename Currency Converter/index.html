@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class=" bg-gray-800 p-10 mx-auto w-[60%] text-white flex gap-[2rem] flex-col mt-[20%] rounded-md"
+    >
+      <div class="flex justify-between">
+        <div class="textBox flex justify-between gap-5 w-[30%]">
+          <label for="fromValue">From</label>
+          <input type="number" id="fromValue" class="text-black text-center" value=1 />
+        </div>
+
+        <div>
+          <label for="CurrencyList1">Currency Type</label>
+          <select  id="CurrencyList1" class=" bg-black text-white w-[5.5rem]">
+            <option value="usd" selected>USD</option>
+            <option value="inr">INR</option>
+            <option value="jpy">JPY</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="flex justify-between">
+        <div class="textBox flex justify-between gap-5 w-[30%]">
+          <label for="toValue">To</label>
+          <input type="number" id="toValue" class="text-black text-center"  />
+        </div>
+
+        <div>
+          <label for="CurrencyList2">Currency Type</label>
+          <select id="CurrencyList2" class=" bg-black text-white w-[5.5rem]">
+            <option value="usd">USD</option>
+            <option value="inr" selected>INR</option>
+            <option value="jpy">JPY</option>
+          </select>
+        </div>
+      </div>
+      
+        <button id="btnToConvert" class="p-3 bg-gray-600 font-bold text-xl">Convert</button>
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

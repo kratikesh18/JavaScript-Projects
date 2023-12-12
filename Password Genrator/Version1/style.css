@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+}
+.container{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.password-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#reset-btn{
+    position:absolute;
+    top: 10px;
+    left: 77%;
+    width: 3rem;
+}
+

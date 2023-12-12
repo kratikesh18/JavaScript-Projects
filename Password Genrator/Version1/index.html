@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Genrator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Password Genrator</h1>
+
+        <div class="password-container">
+            <input type="text" id="show-password">
+
+            <input type="range" name="pass-length" id="pass-length" min="6" max="12" value = '6'>
+            <p>Length : <output id="len"></output></p>
+            
+            <button class="genrate-strong">Strong</button>
+            <button class="genrate-letters">Letters Only</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+        <div>
+            <h4>Proudly Created by 😇Kartikesh</h4>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

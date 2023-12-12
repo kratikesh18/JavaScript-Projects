@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+}
+
+.genrator-box{
+    background-color: rgb(110, 48, 218);
+    width:25rem;
+    margin:9.375rem auto;
+    padding:1.25rem;
+    border-radius: 15px;
+
+}
+
+.password{
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.password input{
+    padding: 0.4rem;
+    background-color:rgb(55, 4, 142) ;
+    border: 0;
+    color: white;   
+    padding-left: 1rem;
+}
+
+button{
+    background-color: rgb(106, 29, 177);
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+    padding:0.563rem 0.938rem;
+    border-radius: 10px;
+}
+.password button{
+    border-radius: 0;
+}
+.range{
+    margin:10px 0 ;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+
+}
+
+.range span{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 1.4rem;
+    min-width: 1.6rem;
+    padding: 0.6rem;
+    text-align: center;
+    border-radius: 0.6rem;
+}
+
+.operations{
+    display: grid;
+    gap: 0.3rem;
+    grid-template-columns: 1fr 1fr;
+}
+div.operations lable{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+button.genrateBtn{
+    width:100%;
+    margin:0.4rem auto;
+    padding: 0.7rem;
+}
+
+@media (max-width:650px) {
+    .genrator-box{
+        width: 75%;
+        padding:2rem;
+;
+    }
+    .operations{ 
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.3rem;
+
+    }
+    
+}

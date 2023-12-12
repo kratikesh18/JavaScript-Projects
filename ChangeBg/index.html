@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change BG</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .mainContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        .textArea{
+            display: flex;
+            flex-direction: column;
+            gap: 1.4rem;
+        }
+        .btnContainer{
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            align-items: center;
+            
+        }
+        .button{
+            background-color: rgb(136, 29, 136);
+            color: white;
+            padding: 1rem;
+            border-radius: 10px 20px;
+            font-weight: bold;
+            letter-spacing:0.1em;;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="textArea">
+            <h2>Press Start to Change backgound!</h2>
+            <div class="btnContainer">
+                    <button class="button" id="start">Start</button>
+                    <button class="button" id="stop">Stop</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="ChangeBg.js"></script>
+</html>
